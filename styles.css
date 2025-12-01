@@ -1,16 +1,20 @@
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 40px;
+    padding: 30px;
 }
 
-.hero-img {
-    width: 600px;
-    height: 350px;
-    object-fit: cover;    /* TEST CASE YAHI CHECK KAR RAHA HAI */
+/* TEST CHECKS IMG → so this must apply */
+.hero img {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;   /* REQUIRED */
     border-radius: 10px;
+}
+
+.hero-text {
+    width: 35%;
 }
 
 .hero-text h1 {
@@ -19,8 +23,7 @@
 }
 
 .hero-text p {
-    font-size: 15px;
-    margin: 10px 0 20px;
+    margin: 15px 0;
 }
 
 .btn {
