@@ -3,24 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
     width: 100%;
     height: 350px;
     overflow: hidden;
 }
 
-.hero img {
-    width: 65%;
+.hero-img {
+    width: 100%;
     height: 100%;
     object-fit: cover !important;
-    display: block;
-    border-radius: 5px;
 }
+
 
 .hero-text {
     width: 30%;
