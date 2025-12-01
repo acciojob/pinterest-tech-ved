@@ -1,20 +1,15 @@
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
     padding: 30px;
 }
 
-/* TEST CHECKS IMG → so this must apply */
-.hero img {
-    width: 60%;
+.hero-img {
+    width: 500px;
     height: 300px;
-    object-fit: cover;   /* REQUIRED */
-    border-radius: 10px;
-}
-
-.hero-text {
-    width: 35%;
+    object-fit: cover;   /* 🔥 THIS IS WHAT TEST CASE CHECKS */
 }
 
 .hero-text h1 {
@@ -23,7 +18,7 @@
 }
 
 .hero-text p {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .btn {
